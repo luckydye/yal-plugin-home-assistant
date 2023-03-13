@@ -1,0 +1,12 @@
+{
+	"name": "yal-plugin-home-assistant",
+	"version": "0.0.1",
+	"description": "yal plugin",
+	"scripts": {
+		"postinstall": "cd .. && npx --package=@yal-app/cli@latest install-yal-plugin yal-plugin-home-assistant"
+	},
+	"devDependencies": {
+		"@yal-app/types": "latest"
+	},
+	"dependencies": {}
+}
